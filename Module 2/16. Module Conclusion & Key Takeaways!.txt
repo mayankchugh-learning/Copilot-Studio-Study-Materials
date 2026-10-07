@@ -1,0 +1,27 @@
+Hello everyone and welcome to this video.
+
+In this video, let's go ahead and conclude what we learned in this module so far.
+
+So first we learned about Rag or retrieval augmented generation.
+
+And we learned how to use it to deliver accurate context aware outputs.
+
+We also built a simple artificial intelligence agent inside of Copilot studio.
+
+And we learned how to upload documents to it.
+
+And the agent was able to respond with answers that are grounded in those documents.
+
+We also learned how to add internal and external knowledge as well to the agent.
+
+And then finally we also mastered how to add triggers, add topics.
+
+If you remember, we learned how to add our birthday cake kind of topic.
+
+If you recall, we also learned how to test our AI agent inside of Copilot studio with that.
+
+That's pretty much all I have for this module.
+
+I hope you enjoyed it and see you in the next module.
+
+

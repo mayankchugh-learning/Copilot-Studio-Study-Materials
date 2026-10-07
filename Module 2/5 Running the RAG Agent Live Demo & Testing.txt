@@ -1,0 +1,243 @@
+Hello everyone, and welcome to this video.
+
+In this video, I'm going to show you, our AI agent that we are going to build in today's module.
+
+So what I've got here is I opened Microsoft Copilot studio and the link here is basically Copilot studio
+
+dot Microsoft.com.
+
+Another point as well is here.
+
+I included a prompt library that includes all the details here.
+
+So here we are in module two.
+
+It is for 11 Madison Park Restaurant Q and a concierge.
+
+Or we call it like smart AI chatbot.
+
+And here I included links as well.
+
+The first one is well for Copilot studio.
+
+This is simply the link.
+
+And you need to make sure that you have the appropriate license to be able to build your AI agents inside
+
+of Copilot studio.
+
+Here I also included a link to the restaurant.
+
+And that was 11 Madison Park in New York City.
+
+So please note as well that I included here a summary of all the prompts, all the instructions, and
+
+how we are going to build our own AI agent.
+
+So if I go back to Copilot studio, this is simply our AI agent that we are going to build together.
+
+Please note that in this video, I just wanted to show you from a very high level what we are going
+
+to build, and we're going to test it as well together, just to get a feel of what does it look like.
+
+So the idea here is we're going to build an agent.
+
+We are going to give it here detailed instructions or description of what it does.
+
+So we're going to say you act as a digital concierge for 11 Madison Park in New York City.
+
+You provide guests with accurate, concise and friendly responses solely based on the internal knowledge
+
+base.
+
+I want you to maintain a warm, elegant and professional tone reflecting the standards of a world class
+
+dining experience.
+
+If you scroll down, you should see here that you can select multiple artificial intelligence models
+
+behind the scenes.
+
+If you're not familiar with those, basically these are AI brains.
+
+Think of it as you can have a small brain, or maybe you can have a larger, more advanced brain.
+
+And all these models that are powering Microsoft Copilot studio actually come from OpenAI.
+
+So basically if you use ChatGPT, that's what we are using here as well behind the scenes.
+
+Okay.
+
+So Microsoft uses OpenAI brains and these are the models that you have available at your disposal.
+
+So for example, if you wanted to use GPT 4.0 this is great for most tasks.
+
+But this has retired now because now we are in the GPT five year, I would say we have GPT 4.1, and
+
+this is the default model that usually is used here.
+
+And this is well also great for most tasks and also any quick analysis as well.
+
+You also have GPT five chat.
+
+And that's great for most tasks as well.
+
+But of course this one is a lot more advanced compared to GPT 4.1.
+
+We also have GPT five auto, and this simply automatically switches between chat and reasoning.
+
+So if you would like to have maybe advanced reasoning or advanced analysis, now you can even go to
+
+the GPT five reasoning as well.
+
+So here what I've done is just set it to GPT five auto.
+
+You can come here.
+
+You can include a trigger.
+
+So for example, maybe if a user submits, let's say a response that is going to be here, or submit
+
+a request, for example, to a Microsoft form.
+
+Now they're going to trigger here that agent to work.
+
+But here we're not going to have any, I would say tool to connect it to it.
+
+Here I got the detailed instructions.
+
+So basically I'm just telling the agent please, whenever you get uh, asked a question, I want you
+
+to answer in the same way.
+
+And they're going to be kind of in certain manners.
+
+And I'm going to walk you through all these details.
+
+Coming up next, the most important piece of information here is, well, the knowledge.
+
+So what I'm going to do here is I'm going to upload these two basically sources of knowledge to the
+
+agent.
+
+So the first one is going to be our Q&amp;A.
+
+And that will be for 11 Madison Park here commonly asked questions.
+
+And if you go back I actually included all the commonly asked questions here for you.
+
+And they are available here.
+
+So for example here I got a list of all the Q&amp;A.
+
+And the idea here is when I start asking the agent if the answer, uh, is included in one of these
+
+documents I want the AI agent to reference those.
+
+So the answer should be grounded in this knowledge.
+
+Okay.
+
+All right.
+
+What I'm also going to do is I'm going to equip the AI agent as well with external source.
+
+So I'm going to give it well access to our 11 Madison Park as well link.
+
+So now it can go and search as well that website.
+
+Of course here I'm not going to be adding any tools.
+
+We're going to learn how to do all of that in the next module.
+
+And here you can also connect our agent to another agent.
+
+And now you have a team of autonomous AI agents that can go and do tasks on your behalf.
+
+Okay.
+
+So again I'm going to show you how to build all of that coming up next.
+
+So let's go ahead and actually test it out.
+
+So what I'm going to do here is I got a few questions to ask.
+
+So the first question to the agent is going to be as follows.
+
+I'm going to ask it the following question I'm going to ask it.
+
+Well, where are you located?
+
+So let's go ahead and ask that question.
+
+So I'm going to copy and I'm going to paste this here.
+
+And I'm going to run it.
+
+So now and I really like what Microsoft did here.
+
+So now you should see what is actually happening behind the scenes.
+
+So you will find that here the agent was able to access 11 Madison Park.
+
+Here.
+
+It's able to also access the Microsoft Word document that I added as part of the knowledge base.
+
+And here is the answer it's going to tell you.
+
+Well, 11 Madison Park is located here at 11 Madison Avenue on the northeast corner of east of the 24
+
+streets.
+
+Okay.
+
+All right.
+
+And it should be able to see as well where it was able to obtain that knowledge or that source of information.
+
+Let's go ahead and maybe ask it another question.
+
+And the question could be well our solo diners welcomed here.
+
+So let's go ahead and run this and let's wait and see.
+
+And now the agent is going to here check its knowledge sources again.
+
+And now it should be able to here be directed to our Microsoft Word document.
+
+It's going to tell you.
+
+Well, yes.
+
+Solo diners are warmly welcomed at 11 Madison Park.
+
+And it's telling you that the reference here is coming from, well, our frequently asked questions.
+
+So now if I open our frequently asked questions and now you should be able to see here, um, solo actually
+
+let's go ahead.
+
+If you search let's say for solo here, here we go.
+
+Now we should see this is actually one of the questions thus 11 Madison Park allow solo diners or not.
+
+And now we should see they are welcomed.
+
+And this is pretty much equivalent to the answer that we got here as well.
+
+And this is the idea of building what we call it a rag agent or retrieval augmented generation based
+
+AI agent.
+
+So that's pretty much all I have for this video.
+
+I hope you enjoyed it.
+
+Let's go ahead and open Copilot Studio in the next video, and then build our AI agent and test it as
+
+well from scratch.
+
+Please stay tuned.
+
+Best of luck and I'll see you in the next one.

@@ -1,0 +1,309 @@
+Hello everyone and welcome to this Practice Opportunity Solution video.
+
+I hope you have been able to solve the practice opportunity.
+
+Let me show you the solution.
+
+So here I got Copilot studio up and running.
+
+And as we have done already, you can just simply click create and you can say new agent.
+
+And here you will be directed to either describe what the agent does or you can configure it.
+
+So what I've done here is I included simply the prompt at the end of our prompt library.
+
+I included the solutions for all our practice opportunities.
+
+So really all I need to do here is I'm going to say you are the simplicity's finance assistant, an
+
+AI agent that support employees by answering questions about expenses, travel rules, procurement,
+
+and vendor processes.
+
+These are the two documents I want you to never guess, infer, or invent information.
+
+Every answer must be referenced with one of the documents, which is like according to the travel and
+
+expense policy and so on.
+
+Keep your tone professional, concise and friendly.
+
+If a question is outside the scope of one of these two policies, I want you to say I'm sorry, but
+
+I can't find this information in the provided simplicity policies.
+
+So I'm going to copy this and I'm going to head back and I'm going to paste it here in the describe.
+
+Let's click run.
+
+And here we go.
+
+So now you are simply creating your own AI agent without writing a single line of code.
+
+It's just a bunch of language basically just some English here.
+
+And if you go back to configure now, you should see the agent.
+
+This is simply the agent here.
+
+And of course you can give it a name.
+
+So for example I asked you in the practice opportunity if you remember.
+
+So the practice opportunity here the name was Simplicity Finance Assistant.
+
+I'm just going to copy that.
+
+I'm going to come back here.
+
+I'm going to paste it.
+
+And this is the description of the agent.
+
+These are the instructions here.
+
+And please note that you can also adjust or change here the logo as well uh of that agent.
+
+And you won't be able to add knowledge if you remember, if you try to add knowledge here.
+
+And if you'd like to upload documents, can I tell you.
+
+Well, you're not allowed to do that right now.
+
+So you need to first create it.
+
+And that's what we are going to do.
+
+We're going to create it first.
+
+And then we'll be able to upload directly documents to it.
+
+So here we go.
+
+So now we should see this is going to be our knowledge base.
+
+So I'm going to go back to knowledge I'm going to say add knowledge.
+
+And now you should see upload file here has been activated.
+
+If you click on select or browse I'm going to navigate to our module two to our practice opportunity.
+
+And now we should see these two documents the travel and expense policy.
+
+And the other one is procurement and vendor management as well.
+
+If you click open now, you should see these two documents.
+
+Of course you can rename them if you want.
+
+You can also give them description here as well.
+
+If you click to add to agent.
+
+Now all this knowledge is going to be basically vectorized and added as part of that knowledge base
+
+to the agent.
+
+And now it is basically this is a status here.
+
+And of course you can upload a ton of files here as well.
+
+You can also include Excel sheets.
+
+You can also upload to or give it links as well to external websites.
+
+So it's going to take some time for it to run, but that's pretty much what you need to test the agent
+
+to build the agent.
+
+And of course, let's go ahead.
+
+And maybe in the meantime while it's running, maybe I need to adjust the starting conversations.
+
+For example, you will see that the default here I'm Simplicity finance assistant, a virtual assistant.
+
+Just so you're aware, I sometimes use AI.
+
+Maybe I don't like that.
+
+Maybe.
+
+Let's go ahead and change it.
+
+If you remember, we have done that already several times in the past.
+
+If you go to here topics and if you go to system and if you go to conversation start now, you should
+
+see this was the trigger and this was the message.
+
+Right.
+
+So if I click here now we should see that this is the message that we got here right.
+
+So now I can adjust it.
+
+Hi.
+
+This is the name of that chat bot.
+
+And you can maybe mention something different.
+
+Maybe for example we are let's say a one big family here, family at simplicity.
+
+And I am happy to help you.
+
+Happy to help you.
+
+Okay.
+
+Something like that.
+
+Okay.
+
+Let's go ahead and give it a try.
+
+So once this is done I can just click save and let's see if this message is going to appear here at
+
+the start.
+
+So if I click on start a New session, hopefully I will get this message here.
+
+Here we go.
+
+So I'm going to tell you we are one big happy family at simplicity.
+
+And I'm happy to help you out.
+
+Okay this one worked.
+
+And let's simply test our agent.
+
+So what I'm going to do here is I'm going to say what is the per diem for meals.
+
+All right.
+
+So now let's go ahead and test our AI agent.
+
+And maybe one of the questions I'm going to ask it.
+
+Well what is the per diem here.
+
+Per diem let's say dollar amount to be specific for meals at simplicity for example let's go ahead and
+
+click run.
+
+And hopefully the agent will understand here what I mean.
+
+And was able to look for the right document.
+
+So that's the first good news.
+
+So it was able to detect these two information here.
+
+And here we go.
+
+It's going to tell you according to the travel and expense policy.
+
+So please note that here I told the agent how to respond.
+
+If you remember, as part of the prompt and the instructions, I told it according to the traveling
+
+expense policy, the standard per diem is going to be $75 per day USD.
+
+And of course you can go back and you can do that quick sanity check.
+
+So if you go down now, you should see this is the standard per diem, for example.
+
+Okay.
+
+Now let's go ahead and maybe test it with another question.
+
+And that question will be included as part of the other document.
+
+If you remember I got two documents in there.
+
+So let's go back to our PowerPoint slides.
+
+And let's maybe pick another question from here.
+
+So for example well I can ask it let's say uh our alcohol expenses reimbursable for example.
+
+Maybe that's another question.
+
+Let's go ahead and give it a try.
+
+And I want to be specific.
+
+And I'm going to say add simplicity because I'm not talking generically right.
+
+And let's go ahead and run it and let's see what answer we are going to get.
+
+And here again it's reading these two documents.
+
+And it's going to tell you according to travel and expense policy, alcohol is not reimbursable at simplicity.
+
+All meals per diem expenses specifically exclude alcohol for reimbursement.
+
+Okay.
+
+This is great.
+
+That's awesome.
+
+Why don't we go and maybe open the other document.
+
+Let me share with you.
+
+So if I go and open the procurement and management policy.
+
+So this was the document.
+
+And I want you to go ahead and kind of test how robust the agent is.
+
+So for example, if you scroll down let's maybe pick one of the topics here and uh, maybe ask that
+
+question.
+
+For example, compare at least two vendor options when costs exceed $1,500, for example.
+
+Or maybe let's keep going.
+
+So for example, vendor invoices must be sent to this email.
+
+So let's go ahead and maybe test it.
+
+So for example okay Where should I send vendor invoices?
+
+Something like that.
+
+Okay.
+
+And let's go ahead and test it out.
+
+And hopefully it is going to get back to me and ground the results in the other document.
+
+And here we go.
+
+It's going to tell you according to the procurement and vendor management policy, vendor invoices should
+
+be sent to finance and simplicity.
+
+How amazing is this.
+
+So with that, that's pretty much all I have for this, uh, practice opportunity.
+
+I hope you enjoyed it.
+
+We're going to have one quick video coming up next that explains Rag or retrieval augmented generation.
+
+If you would like to skip that one, you can go ahead and do it.
+
+This simply just concludes our module.
+
+But if you'd like to kind of nerd out nerd.
+
+But if you'd like to nerd out and understand really all the technicalities behind rag, please go ahead
+
+and watch the next video.
+
+I hope you enjoyed this module and see you in the next one.

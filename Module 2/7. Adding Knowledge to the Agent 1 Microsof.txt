@@ -1,0 +1,183 @@
+Hello everyone and welcome to this video.
+
+In this video we are going to continue building our own AI agent inside of Copilot studio.
+
+If you remember, in the previous video, I shared how we can set the configuration of the agent here.
+
+We gave it a name.
+
+We gave it clear description.
+
+We also provided clear instructions as well to the agent.
+
+And you should see here what the agent simply should look like.
+
+And please note as well that if you scroll down, these are all the suggested prompts.
+
+So the idea of suggested prompts you can have kind of easy to click on questions.
+
+Right?
+
+So instead of users every time going they're typing basically what they want, I can include maybe information
+
+about the dress code about maybe dietary restrictions.
+
+And we can go ahead and adjust these as we want.
+
+So for example, when it comes to special occasions, maybe if you want to remove that suggested prompt,
+
+you can click on remove and that is going to be removed from here.
+
+So now I ended up with only five suggested prompts as an example.
+
+Okay.
+
+Please note that you won't be able to add a trigger or equip the agent with additional tools.
+
+Before you actually create it first.
+
+And this is, I would say like a feature available here inside of Copilot studio.
+
+So we are going to learn how to add tools, kind of equip the agent with the ability to send emails
+
+for example, or maybe get information from Excel sheet in.
+
+We can learn how to do that in the next module.
+
+In here it's just going to be a simple knowledge retrieval or what we call it a rag based agent.
+
+So now let's go ahead and add knowledge to our agent.
+
+So the first knowledge source that I would like to add, and I included all these files for you in in
+
+our course package.
+
+The first one is well 11 Madison Park commonly asked questions.
+
+So if you go ahead and click on it these are the list of all the questions.
+
+So for example here I have questions around what kind of dining experience should guests expect.
+
+What is 11 Madison Park best known for?
+
+And so on.
+
+So really all I need to do is to go back and I'm going to add this knowledge as part of the knowledge
+
+base to the agent.
+
+So I'm going to click add.
+
+And now it's going to tell me, well you can add multiple sources of knowledge to the agent.
+
+So for example if you have files available on SharePoint you will be able to do that here.
+
+If you would like to add public websites you can click that here as well.
+
+Or you can just simply click on upload files and just upload PDFs, Excel Sheets and Microsoft Word
+
+documents as well.
+
+All right.
+
+So what you notice is well, if you try to upload files right now at this stage it's going to tell you
+
+you can add this knowledge source after you have finished creating your agent.
+
+And that's the idea right.
+
+Like what we want here is we want to click create first.
+
+We want to create the agent first.
+
+And then we're going to equip it with knowledge tools and so on.
+
+So once you click create here we go.
+
+Now the agent is being created for you.
+
+And now you should see 11 Madison Park AI chatbot agent has been created.
+
+And now you have the ability to add knowledge.
+
+For example.
+
+You also have the ability here to add triggers.
+
+So for example, you can trigger it with let's say when you receive a message, for example, or when
+
+you receive a teams chat and so on.
+
+You'll also see here all the clear instructions that we added.
+
+And now if you click on Add Knowledge, now we should be able to see the upload file here has been activated
+
+for you.
+
+And there are so many available knowledge sources that you can equip your AI agent with.
+
+So for example, if you want to connect it to Salesforce, you want to connect it to Azure SQL data.
+
+You also can here have SharePoint public websites and so on.
+
+So what I'm going to do is I'm going to say select or browse.
+
+And now I'm going to navigate to our module two information.
+
+And what I've got here is I got practical demo.
+
+And this is simply the 11 Madison Park Frequently Asked Questions.
+
+So I'm just going to rename this actually.
+
+So instead of part I'm going to call it Park okay.
+
+And I'm going to upload this document here.
+
+So this document has been uploaded.
+
+Of course you can give it a name here.
+
+And you can give it as well description of what that document actually contains.
+
+And now you can say add to agent.
+
+And please note that you are limited to approximately 512MB here.
+
+And of course, I'm expecting this to be expanded as, um, as the tool becomes better over time.
+
+So here we go.
+
+So now we should see 11 Madison Park commonly asked question document have been uploaded and that has
+
+been here included as part of its knowledge base.
+
+Okay.
+
+So what you could do as well is you can give the ability to the agent to perform web search as well.
+
+This is pretty straightforward.
+
+So now you can click enable.
+
+And now the agent will be able to search all public websites too.
+
+So now think of it as the agent is able to have access to the internet.
+
+So it can look for information as well if you wanted to.
+
+Okay.
+
+Please note that this is still in progress.
+
+It might take a few minutes for it to run, but that's pretty much it.
+
+That's all you want to do to add or equip knowledge to the agent.
+
+In the next video, I'm going to show you how you can connect a website to it.
+
+And now we're going to be pretty much ready to test our agent.
+
+Please stay tuned.
+
+Best of luck and I will see you in the next video.

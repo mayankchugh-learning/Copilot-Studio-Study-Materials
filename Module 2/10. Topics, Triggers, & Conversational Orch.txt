@@ -1,0 +1,313 @@
+Hello everyone and welcome to this video.
+
+In this video, I wanted to share with you how you can adjust the trigger for this conversation and
+
+also adjust the message that you received when you start testing the agent.
+
+So at start, what message I should get in the in the beginning and how you are able to adjust it as
+
+well and customize it for your needs.
+
+So if you notice here, when we tested the agent before, well, we found there is an automatic message
+
+that appeared.
+
+Right.
+
+It's going to tell you hello I'm 11 Madison Park AI chatbot a virtual assistant.
+
+So as you are aware I sometimes use AI to answer your questions and so on.
+
+So you're probably wondering, okay, where is that information coming from?
+
+Well, if you go back here.
+
+So this is the overview right on the right hand side.
+
+Here you should be able to see topics and the idea that you can group part of the conversations, such
+
+as goodbyes, for example, into a bucket.
+
+You can also add maybe the greetings into another bucket.
+
+Maybe thank you into another one.
+
+And also, if there is any escalation, if you would like to escalate from AI to maybe talk to a human
+
+agent, well, you are able to add that as well.
+
+And here if you go to topics, you have the ability to add a new topic if you want.
+
+And also you can use existing topics that are available.
+
+So let's explore a few of those.
+
+So what you see here is I got well goodbye.
+
+So if you actually go ahead and click on it now you should see basically what is happening here behind
+
+the scenes.
+
+And please note that all of these are automatically defined by Copilot studio.
+
+So the trigger for this is this tool can handle queries like bye bye for now.
+
+Bye now.
+
+Goodbye.
+
+No thank you, goodbye and so on.
+
+So if the user types any of these messages now this is going to be the topic that will be directed here.
+
+And this is going to be the trigger right afterwards.
+
+Well, if the user asked any of these questions well I'm going to ask the user a question.
+
+I'm going to say would you like to end our conversation.
+
+And the answer here is going to be boolean meaning it's going to be yes or no.
+
+True or false.
+
+And basically based on the answer that I'm going to receive from the user, I'm going to go through
+
+many of these branches.
+
+So for example, if the user said yes okay, that means here I would like to end the conversation.
+
+I'm actually going to direct them to the end of conversation topic.
+
+And there I actually want to maybe get the reviews from them.
+
+Maybe how many stars, for example, did I evaluate the service?
+
+If the answer is false, that means they do not want to close or end the conversation.
+
+Well, I'm going to ask.
+
+Tell them.
+
+Okay.
+
+Go ahead.
+
+I'm still listening.
+
+I'm still there.
+
+So they need to type more information.
+
+If any other condition are just going to keep going and continue the conversation as well.
+
+Okay.
+
+And that's the idea.
+
+You can just simply create here multiple branches.
+
+Think of it as like writing a flowchart like or an if else statement in just code.
+
+Okay.
+
+And you can do that here without writing a single line of code.
+
+Pretty much.
+
+Okay.
+
+So this is simply the goodbye.
+
+And actually we're going to go ahead and test what some of these together.
+
+Uh, let's actually test maybe the goodbye and then we'll start the conversation.
+
+So what I'm going to do here is I'm going to say, well, goodbye and let's see what the agent here
+
+is going to do and what you see.
+
+If you click on goodbye now, it's going to tell you, well, this topic here has been triggered.
+
+This is the goodbye topic.
+
+And these are the phrases right.
+
+So bye bye for now.
+
+Bye now and so on.
+
+And now you should see that.
+
+Would you like to end our conversation?
+
+So if you remember, if you go back to our topic here, that was actually if I go back to topics, if
+
+you remember under goodbye.
+
+Now basically this has been triggered, right.
+
+And here I got the question right.
+
+I should ask whether it's true and false right.
+
+So here is going to tell you would you like to end the conversation.
+
+And now it's simply waiting for my answer and what you see as well, which is I really like about Microsoft
+
+Copilot studio that's going to tell you where.
+
+Well, we are waiting here we are somewhere here.
+
+It's highlighted here in dark blue.
+
+And I didn't select any of the branches yet.
+
+Okay.
+
+So for example, let's maybe test this branch.
+
+So it's asking me would you like to end the conversation.
+
+So what I'm going to say I'm going to say no.
+
+So that means I should get a message that is going to tell me.
+
+Go ahead.
+
+I'm listening.
+
+Right.
+
+So let's go ahead and run it.
+
+So now if I say no, it's going to tell me, well go ahead, I'm listening.
+
+And if you go back to topics and if you open the goodbye now, you should see that this was the path
+
+that has been selected here.
+
+Okay.
+
+And it's telling you that this has been executed again.
+
+It's really pretty straightforward and it's really intuitive as well.
+
+Maybe let's go ahead and test it again.
+
+So what I'm going to do is I'm going to say goodbye and let's go ahead and test it again.
+
+So I'm going to say goodbye.
+
+Let's test the other branch.
+
+I mean, so if I say goodbye now you should see goodbye topic has been triggered and it's going to tell
+
+me.
+
+Well, would you like to end the conversation?
+
+Actually, if you go back now, you should.
+
+If you go to goodbye now, we should see that we are standing here somewhere and we are waiting for
+
+the user to either insert yes or true or false.
+
+Maybe.
+
+Let's go ahead and test this one out now.
+
+So now I can say well, yes.
+
+Or of course you can select one of these options.
+
+If you press yes.
+
+Now you should be directed to another topic.
+
+And now you should see Did that answer your question?
+
+Actually, if you go back to topics, if you go to goodbye now, you should see that you have been directed
+
+here, right?
+
+And this one is actually calling another topic.
+
+And this topic is for collecting reviews from users and to also end the conversation.
+
+And that's why it's called end of conversation.
+
+If you go ahead and click on it.
+
+Now you should see that.
+
+Did that answer your question.
+
+And that's where we at right now.
+
+That's basically here.
+
+And now I can ask it.
+
+Well true or yes, that answered my question.
+
+And now it should be directed to well how many stars do you rate the experience.
+
+So now I can pick maybe 4 or 5 stars.
+
+And if you go back to topics, if you go back to goodbye and if you go here, that was the topic.
+
+End of conversation.
+
+If you click on View Topics.
+
+And now you should see that we are somewhere here.
+
+Okay.
+
+Once I get that feedback now I can say thank you for feedback.
+
+It's going to gonna ask me again another question.
+
+And please note that of course it looks pretty complicated, but it's just basically true or false.
+
+Booleans, just zeros and ones and so on.
+
+I'm going to read it, let's say to four stars.
+
+And now it's going to tell me, well thank you for your feedback.
+
+Can I help you with anything else I'm going to say no.
+
+And now you should be able to tell me.
+
+Well, okay.
+
+Goodbye.
+
+And that should have ended our conversation.
+
+And that's the idea pretty much of topics.
+
+You can of course go ahead and add your own topic.
+
+You can use all these existing topics.
+
+There are so many of these.
+
+If you go back to system now, you should see some one here related to escalate.
+
+If you would like to escalate to a human um agent there's also conversation start and so on with that.
+
+That's all I have for this video.
+
+I hope you enjoyed it.
+
+In the next video, let's go ahead and learn how to adjust.
+
+Some of these conversation starts and some of these topics, and also learn how to create our own topic
+
+as well.
+
+Please stay tuned.
+
+Best of luck and I will see you in the next video.

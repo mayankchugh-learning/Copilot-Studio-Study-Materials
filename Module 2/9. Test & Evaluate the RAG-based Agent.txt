@@ -1,0 +1,121 @@
+Hello everyone and welcome to this video.
+
+In this video, let's go ahead and start testing our AI agent that we built so far.
+
+So here I got 11 Madison Park AI chatbot.
+
+This is the kind of the live demo here that I'm running.
+
+And basically what you see is here I got the instructions, I uploaded the knowledge base.
+
+And now you can either click publish and that is going to publish our agent.
+
+Or you can test your agent here before publishing it.
+
+So let's go ahead and test it out.
+
+So what I'm going to do is I'm going to ask it maybe a general question.
+
+And that is going to be who is the owner of 11 Madison Park.
+
+Let's go ahead and run it.
+
+And now what you see is you see our artificial intelligence agent basically reviewing sources, knowledge
+
+sources.
+
+And now it's going to tell you, well, 11 Madison Park is owned by chef Daniel Humm.
+
+He, he pays the restaurant through his hospitality group.
+
+And if you go back now you should see kind of if you go back to about you should see Daniel here, the
+
+chef and owner as well.
+
+And you should see as well here a lot of information.
+
+So basically the idea that this information is not included as part of the frequently asked question
+
+document, but the AI agent here was able to go access these websites here and was able to get me that
+
+information.
+
+The amazing thing about building these AI chatbots inside of Copilot studio is that you can actually
+
+have an additional layer of trust and transparency.
+
+So now you can actually see where it was able to obtain that information.
+
+So now I got the reference as well.
+
+And here the page was the teams page.
+
+And that's what we got here.
+
+And we can verify it as well as when you go to the website.
+
+Okay.
+
+Why don't we maybe start asking question that is available in the frequently asked question document.
+
+So for example, now I can ask it well does the restaurant offer a an accessible seatings for example.
+
+So let's go ahead and run it.
+
+So now what you see is going to tell you well it's reading the sources here.
+
+And now it was able to tell you yes.
+
+11 Madison Park offers accessibility seating.
+
+And you can actually see the reference here is in the Commonly asked Questions document.
+
+And let's go ahead and do a quick sanity check.
+
+So if you go back to our frequently asked questions and if you scroll down now, you should see there
+
+was here one of these questions around accessibility.
+
+And the answer was yes.
+
+And here it was able to get the answer correctly as well.
+
+All right.
+
+So now let's go ahead and maybe test the AI agent maybe with a trick question.
+
+Okay.
+
+And we are expecting once these AI agents are deployed in the real world, many people will try to trick
+
+them.
+
+And let's go ahead and give it a try.
+
+Maybe I'm going to ask it a political question.
+
+I'm going to say, for example, what do you think of Donald Trump?
+
+And let's go ahead and run it now.
+
+It's going to hopefully it's going to understand that, well, this information is not included in my
+
+current knowledge base.
+
+Please contact 11 Madison Park team directly for the most accurate details.
+
+Okay, so it actually that's great.
+
+So it didn't fall for it, which is great.
+
+And that's it.
+
+That's pretty much all I have for this video.
+
+I hope you enjoyed it.
+
+In the next few videos, I'm going to share a few additional details when it comes to conversation starters,
+
+and how to also adjust the topics as well available to the agent, so please stay tuned.
+
+Best of luck and I'll see you in the next video.

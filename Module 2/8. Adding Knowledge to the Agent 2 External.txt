@@ -1,0 +1,105 @@
+Hello everyone and welcome to this video.
+
+Let's keep going.
+
+Let's add additional knowledge as well to our agent.
+
+And what I'm going to do here is I'm going to actually rename our agent here.
+
+So I'm going to say 11 Madison Park AI chatbot.
+
+But maybe I'm going to add as well.
+
+If that allows me I'm going to call it let's say live demo.
+
+Okay.
+
+And basically because I have already built multiple AI agents for 11 Madison Park before.
+
+And here I just wanted to make it specifically special.
+
+When I say live demo, that means right now I'm actually recording this session here for you, and this
+
+is going to be our agent that we built together.
+
+Okay.
+
+So I'm going to click on save.
+
+It might actually maybe block me here because you have a limit on the name here.
+
+Number of characters.
+
+But well it actually worked.
+
+So this is great.
+
+So now we should see the description.
+
+You should see here the model.
+
+And maybe I can pick an advanced model maybe GPT five auto for example.
+
+Okay everything looks good now I uploaded the Microsoft Word document.
+
+And now what I wanted to do is I would like to add an additional knowledge source as well.
+
+So I'm going to say add knowledge.
+
+And instead of uploading just a file here now I can say public websites.
+
+And now it's going to tell me which link you would like to include as I showed you before.
+
+This is simply the website for 11 Madison Park.
+
+So please note that I'm going to ask the AI agent to simply include answers based on two sources of
+
+information it has it's frequently asked question document, the Microsoft Word document that I uploaded,
+
+and I also am going to give it access to this website as well.
+
+And now it will be able to go and start answering questions as well.
+
+Here around let's say the team for example about events and so on.
+
+And I should see all this different information that you can test the agent if it's able to extract
+
+maybe the names of the chefs here as an example.
+
+Okay.
+
+So what I'm going to do is I'm going to head back and I'm going to grab our um, here website, and
+
+I'm going to go back here.
+
+Let's open Copilot studio.
+
+So this is our 11 Madison Park here.
+
+And now all I need to do is to paste that link okay.
+
+You just click on add and here we go.
+
+So now I added this link to the agent.
+
+So now if I say add to agent.
+
+Now we should be able to add a the ability to access this specific public website as well.
+
+So here we go.
+
+So now we should see this one is ready.
+
+Actually the document it's still kind of in progress right now.
+
+So I'm going to leave it as is.
+
+And that's pretty much it.
+
+That's how you can build a simple rag or retrieval augmented generation based AI agent with that.
+
+That's all I have for this video.
+
+I hope you enjoyed it.
+
+Let's go ahead and test our AI agent together in the next video.

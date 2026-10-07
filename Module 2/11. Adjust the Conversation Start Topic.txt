@@ -1,0 +1,75 @@
+Hello everyone, and welcome to this video.
+
+In this video, I'm going to share how we can adjust the conversation start and this kind of tie to
+
+our previous video when we discussed topics.
+
+And um, if you remember, these were the topics that we shared.
+
+Some of them are goodbye, greetings and so on.
+
+So if you go back to system okay, now you should see there is a conversation start and you should see
+
+the trigger here is on conversation start.
+
+So if you remember, if you actually come here and if you would like to create a new testing session.
+
+So if I say start new test session now, we should see that the chat bot just automatically came up
+
+with a message.
+
+Right.
+
+And this message was hello, I'm 11 Madison Park and I'm just wondering where did that come from?
+
+Well, if you go ahead and click on it now, it's going to direct you to topics.
+
+It's under conversation start.
+
+And now you should see what that message look like.
+
+So if you actually go ahead and click on it now we should see well this is the message that have been
+
+displayed here.
+
+So if I go ahead and adjust that conversation start topic that is going to be reflected here.
+
+When I interact with the chat bot, when I actually start testing it.
+
+All right.
+
+So to edit this specific message now I'm going to go back and I'm going to here I have topics.
+
+And if I go to system and if I go to conversation start that's going to open this for us here.
+
+And basically I can just go ahead and adjust this text simply.
+
+So if you remove this text now you should see hello, I am this bot name.
+
+And maybe I'm going to say how can I help you today okay.
+
+And let's go ahead and test it out this time so I can click save.
+
+And if I say please I want to start a new session.
+
+And here we go.
+
+Hello I'm 11 Madison Park AI chatbot.
+
+How can I help you today.
+
+So with that, that's simply all I wanted to cover here.
+
+When we would like to adjust some of these, conversation starts, end of conversation and so on, they
+
+are already pre-built for you.
+
+You can just simply go ahead and take any of these conversations.
+
+You can also enable and disable some of these topics as well.
+
+You can also adjust the trigger associated with them too.
+
+With that, that's all I have for this video.
+
+I hope you enjoyed it and see you in the next one.

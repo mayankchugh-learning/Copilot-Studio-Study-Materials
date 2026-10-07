@@ -1,0 +1,241 @@
+Hello everyone and welcome to this new module.
+
+In this module we are going to build an artificial intelligence chatbot for a famous restaurant known
+
+as 11 Madison Park.
+
+Of course, we are going to build our AI chatbot using Microsoft Copilot studio.
+
+So let's go ahead and get started.
+
+So before we dive deep into our project, I wanted to quickly cover what do we even mean by an AI agent?
+
+So AI agents are systems that are powered by an or a large language model like GPT five that can take
+
+goals you give them so you can give them a goal or a task.
+
+And basically the AI agent on its own.
+
+It's going to decide how to achieve those goals, and it is going to act using various tools, often
+
+without constant human guidance.
+
+So let me share a practical example.
+
+So let's assume that we would like to book a flight from Toronto to New York City.
+
+So now what you could do is you can build an artificial intelligence agent that is powered by an LLM
+
+or a large language model.
+
+And if you're not familiar with a large language model, basically think of it as a fancy name of a
+
+digital brain that can mimic human intelligence.
+
+So, for example, I'm assuming a lot of you have already used ChatGPT, for example, and ChatGPT is
+
+well powered by an LLM or a large language model.
+
+You can of course Use Google Gemini as well, which is another large language model developed by Google.
+
+We also have open source AI models such as Meta by Facebook.
+
+Okay, we'll call it Lama as well by meta.
+
+So what we could do is now I got the artificial intelligence agent, and now you can send a trigger
+
+to the agent.
+
+You can say, I want you to book the flight from Toronto to New York City.
+
+The agent, which is powered by an LLM, by a brain, basically, it's going to have its own instructions.
+
+So think of it as it has planning capability.
+
+So it can reason.
+
+It can decide okay, now I need to go and maybe search the internet.
+
+Maybe I need to go and access the user credit card information, for example, and so on.
+
+So these are the instructions.
+
+So I'm going to when we open Microsoft Copilot studio will be able to actually see where can we add
+
+a trigger to the agent, where we can add instructions to it as well to tell it basically what to do
+
+and what you could do as well is that you can equip the agent with knowledge.
+
+So now I can tell it okay.
+
+To answer questions I want you to use let's say these lists or example PDF files.
+
+You can also add Excel sheets to it.
+
+And that's what we call it knowledge.
+
+And I'm going to share as well how we are going to add knowledge to our agent.
+
+And finally we can also equip our AI agent with tools.
+
+So now I can tell it.
+
+Now you have this tool which is let's say you have the ability to open Excel, or maybe you have the
+
+ability to write in, let's say, Microsoft Word.
+
+Maybe you have the ability to actually perform a transaction and use a Human credit card information.
+
+And that's the idea of an AI agent in a nutshell.
+
+The agent is going to take a goal, a trigger.
+
+It's going to do whatever it takes.
+
+It's going to use tools.
+
+It's going to use its own knowledge.
+
+It's going to as well follow the instructions.
+
+And then what you'll get is you get a ticket that is being sent to your email.
+
+And that's how we are envisioning the future of work and also the future of the internet.
+
+People would look in maybe in ten years, will look at us right now, and they're probably going to
+
+laugh, right?
+
+Because what we used to do, we used to go plan a trip.
+
+We have to go to, let's say Booking.com, look for hotels.
+
+We really don't.
+
+Humans shouldn't be doing any of that.
+
+Now you can have an agent that knows your preferences.
+
+You can just tell it, go book me a ticket and that's it.
+
+You just go chill.
+
+And now the agent's gonna go.
+
+It's gonna search.
+
+It has access to your credit card information, and now you get the ticket being sent directly to your
+
+email.
+
+Okay, so the next example that I would like to share with you is, well, what is going to be our project
+
+today?
+
+Well, in this project we are going to build an artificial intelligence assistant that can answer questions
+
+about a specific topic.
+
+And that specific topic is going to be around a restaurant.
+
+And that's going to be our 11 Madison Park restaurant.
+
+And here is simply our restaurant website.
+
+So this is what we call it 11 Madison Park.
+
+It's really like amazing restaurant.
+
+It is available.
+
+It's included in New York City.
+
+This is the address here.
+
+And what we're going to do is we're going to include a series of documents, a series of PDF files that
+
+we're going to upload as part of the knowledge base to the agent.
+
+I'm also going to give it access as well to that link here to the agent.
+
+So the agent was able to go and actually search this specific link here.
+
+And that's what we call it a rag based agent.
+
+Rag means retrieval augmented generation.
+
+I'm going to explain that in great detail coming up next.
+
+But this is simply the idea I wanted to here have a chatbot that is powered by Copilot studio and GPT
+
+five as well.
+
+Behind the scenes, the idea is that you can ask that chatbot a question.
+
+You can say, what kind of food does 11 Madison Park restaurants serve?
+
+Instead of just replying with its own knowledge base?
+
+What it's going to do is I'm going to upload additional documents.
+
+So I'm going to say now I'm going to add a few PDF files.
+
+And these PDF files includes all the information about what food 11 Madison Park offers, what kind
+
+of maybe outfits, you know, are allowed inside of the restaurant.
+
+and that's what we call it here, a database.
+
+I'm going to upload that knowledge.
+
+Specifically here.
+
+And I'm going to allow the agent to go ahead and access going to search that knowledge base.
+
+It's going to fetch or receive that information.
+
+And now the response that we are going to get is going to be grounded in our data.
+
+So now you get 1111.
+
+Madison Park serves a fully plant based menu using no animal products.
+
+Please note that in this project we are not going to have any tools.
+
+So the agent here is not going to go and maybe send an email or maybe go and access Excel.
+
+We're going to do that in the next project.
+
+In this project we're just going to start small.
+
+All what we're doing is we are building a very simple, what we call it rag or retrieval augmented generation.
+
+I'm going to simply equip the agent with an additional knowledge base here.
+
+So now when it answers, it answers based on the knowledge that I added to it when I built my AI agent.
+
+That's pretty much it.
+
+So here are the key learning objectives of this module.
+
+First we're going to learn about Rag or retrieval augmented generation.
+
+We're going to build a rag based AI agent for 11 Madison Park restaurant of course using Copilot studio.
+
+We are going to understand the core principles of Rag.
+
+Coming up next, we'll also learn how to add external and internal knowledge to the AI agent.
+
+So I'm going to add websites.
+
+I'm going to upload as well PDFs and word documents to.
+
+I'm going to learn how to add or customize agent triggers.
+
+And then finally we will learn how to publish and test our AI agent inside of Copilot studio.
+
+With that, that's pretty much all I have.
+
+I hope you enjoyed this video and see you in the next one.
+
+

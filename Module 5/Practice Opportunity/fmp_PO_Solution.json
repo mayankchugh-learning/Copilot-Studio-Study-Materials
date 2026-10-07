@@ -1,0 +1,91 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "FMP Final",
+        "description": "Clean connection for P/E Ratios and Growth.",
+        "version": "1.0.0"
+    },
+    "host": "financialmodelingprep.com",
+    "basePath": "/stable",
+    "schemes": [
+        "https"
+    ],
+    "consumes": [],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/ratios": {
+            "get": {
+                "summary": "Get PE Ratio",
+                "description": "Fetches valuation ratios including P/E.",
+                "operationId": "GetRatios",
+                "parameters": [
+                    {
+                        "name": "symbol",
+                        "in": "query",
+                        "required": true,
+                        "type": "string",
+                        "description": "Stock Ticker (e.g. AAPL)"
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer",
+                        "default": 1
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response"
+                    }
+                }
+            }
+        },
+        "/income-statement-growth": {
+            "get": {
+                "summary": "Get Growth Data",
+                "description": "Fetches Revenue and Net Income growth.",
+                "operationId": "GetGrowth",
+                "parameters": [
+                    {
+                        "name": "symbol",
+                        "in": "query",
+                        "required": true,
+                        "type": "string",
+                        "description": "Stock Ticker (e.g. AAPL)"
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer",
+                        "default": 1
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {},
+    "parameters": {},
+    "responses": {},
+    "securityDefinitions": {
+        "API Key": {
+            "type": "apiKey",
+            "in": "query",
+            "name": "apikey"
+        }
+    },
+    "security": [
+        {
+            "API Key": []
+        }
+    ],
+    "tags": []
+}

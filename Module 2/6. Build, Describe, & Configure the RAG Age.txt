@@ -1,0 +1,273 @@
+Hello everyone and welcome to this video.
+
+In this video, let's go ahead and get started and build our first AI agent together.
+
+So here I got Copilot studio up and running here.
+
+Please note that the link is Copilot studio Microsoft.com.
+
+And let me give you a quick walkthrough.
+
+So what you see here is you can describe your AI agent that you would like to create.
+
+You can just simply explain here what you want to do in plain English.
+
+And then an agent will be built here for you.
+
+Here you should be able to see all the recent AI agents that I have built.
+
+And if you click on See More, you should be able to see here all the agents.
+
+Right.
+
+And please note that we're going to build a ton of AI agents together in this course.
+
+You can also here import AI agents from other as well locations too.
+
+On the left hand side, if you click on Home Now, if you scroll down now, you should see when you
+
+click on Explore Agents.
+
+Now you should see here all these different agents that um, think of it as more of templates.
+
+So if you wanted to do, let's say voice, you can click here if you want it to open, for example,
+
+an IT help desk agent instead of building it from scratch.
+
+Now you can use one of these templates.
+
+So what I'm going to do is on the left hand side I'm going to click create.
+
+And that will allow us to be navigated here to the create uh home page.
+
+And here you have a ton of options.
+
+As I mentioned you can use some of these templates.
+
+You can also install a what we call it a managed agent.
+
+Please note that all of these are still in preview.
+
+So for example you can click on Personalize shopping.
+
+And that will allow you to use an agent to basically look for shopping items and personalize it for
+
+you as well.
+
+Okay.
+
+Please note that there are still again under um, I would say development, right.
+
+So actually try to test some of these, but they are not fully matured yet to share it once they become
+
+available and up and running.
+
+I'm going to include that as well in future versions of that course.
+
+Okay, so if you go ahead and click on New Agent, here we go.
+
+Now you'll be directed to this page.
+
+You simply have two options.
+
+You can either go to describe here.
+
+And you can explain in plain English what you want that artificial intelligence agent to do.
+
+Or you can go to configure.
+
+And here you can upload an image to the AI agent.
+
+You can here give it a name.
+
+You can describe as well what that agent does.
+
+And if you click on that info icon here, it's going to tell you basically what to do.
+
+It's going to tell you in a few words, say what it is and when it should be used.
+
+So colleagues and AI agents, if enabled, can use it effectively.
+
+Here we got instructions.
+
+So you can describe to the agent basically what it does or what kind of define as well its tone and
+
+outline, any rules or guidelines it must follow.
+
+If you go ahead again and click on this info icon, it's going to tell you direct the behavior of the
+
+agent, including its tasks and how it completes them as well.
+
+If you scroll down now, you can add knowledge to the Artificial Intelligence agent too.
+
+And of course, that's where I'm going to upload the frequently asked questions.
+
+And I'm also I can give it the ability here to search the public web as well for us.
+
+So you can either enable or disable this feature.
+
+And here I should be able to see suggested prompts.
+
+And I'm going to share.
+
+What do I mean by that coming up next.
+
+So what I've done here is I included a all the prompts that we are going to cover in this course are
+
+included here in our prompt library document.
+
+And of course that document will be available as part of our course package.
+
+Okay.
+
+So this is the prompt that we're going to use.
+
+I'm going to say you are a custom AI agent that is designed to act as a digital concierge for 11 Madison
+
+Park in New York City.
+
+I'm going to give the AI agent a name, so I'm going to say your name.
+
+Actually, this should be your.
+
+Your name is 11 Madison Park AI chatbot.
+
+You answer guest questions using the internal knowledge base provided to you.
+
+And this, of course, one of them is the Frequently Asked Questions document.
+
+Your goal is to give accurate, concise, friendly, hospitality aligned responses that reflect the
+
+tone of a world class dining experience.
+
+So please note that here, if you remember, when we, um, if you go to the agent instructions, basically
+
+you're outlining how the agent should behave, should it be friendly, should it be aggressive, and
+
+so on.
+
+If a question is not covered in your provided knowledge, you reply that the information is not available
+
+and direct the guest to the appropriate MP.
+
+Uh or 11 Madison Park contact.
+
+Okay.
+
+This is again really important because these artificial intelligence models, they tend sometimes to
+
+hallucinate and generate fake information.
+
+So if you include that here as part of the prompt, well, if you can't find the information don't get
+
+creative.
+
+Right.
+
+Don't generate fake information.
+
+Okay.
+
+So if you scroll down these are the instructions I want you to follow these rules.
+
+When generating responses, use only the information that the I included as part of the knowledge base
+
+the tone.
+
+I want it to be warm, elegant, welcoming and professional response style.
+
+I want you to keep the answer short and clear.
+
+Kind of 2 to 5 sentences.
+
+Use bullet points if possible.
+
+Include links only if they are part of your provided knowledge.
+
+If information is missing, just say so politely.
+
+Limitations I also wanted to add a few what we call it guardrails.
+
+Right?
+
+So I don't want the agent maybe to talk about political, for example, or give political opinions.
+
+Right.
+
+Especially that right now in our connected world.
+
+Easily some people might want to attack.
+
+Let's say this business.
+
+Right.
+
+So they can go and try to play around.
+
+Maybe with that chatbot.
+
+Ask it, maybe their opinion when it comes to politics.
+
+So I want to make sure that there are guardrails included in place.
+
+So I'm going to say do not answer questions about this outside of 11 Madison Park.
+
+And don't give any New York City kind of tourism advice and don't make menu claims, prices, or availability
+
+unless explicitly included in your knowledge.
+
+If anything, just say I'm unsure.
+
+This is not included in my current knowledge base.
+
+The output is going to be provide a clear, concise, friendly answers based on your knowledge.
+
+Never output anything unrelated to 11 Madison Park.
+
+Okay, so what I'm going to do here is really I'm just going to copy all these all this prompt here.
+
+Okay.
+
+Actually I'm going to grab all of that.
+
+I'm going to come down I'm going to copy Ctrl C, I'm going to come back and I'm going to go to the
+
+describe here tab.
+
+And I'm just going to paste simply all this prompt here.
+
+If you click run what you are seeing right now, basically an artificial intelligence agent being developed
+
+right now for you on the spot.
+
+And here we go.
+
+On the right hand side, you should see 11 Madison Park AI chatbot.
+
+So it was able to take the name that I suggested here as part of the prompt.
+
+If you remember, that was the name that I suggested.
+
+And here is going to ask you maybe follow up questions.
+
+Are there specific types of guests questions scenarios and so on?
+
+Pretty much I'm ready right now because I included all the information I need in that prompt.
+
+If you go back to configure now, you should be able to see that here.
+
+I got the name here.
+
+The agent was able to extract this description here.
+
+So acts as a digital concierge for 11 Madison Park.
+
+And these are all the instructions that are included as part of my prompt.
+
+Okay.
+
+So in the next video I'm going to show you how we are going to add knowledge to our agent.
+
+So please stay tuned.
+
+Best of luck and I'll see you in the next video.

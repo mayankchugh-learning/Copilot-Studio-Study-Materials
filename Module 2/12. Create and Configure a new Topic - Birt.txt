@@ -1,0 +1,349 @@
+Hello everyone, and welcome to this video.
+
+In this video, I'm going to show you how you can create a custom topic.
+
+And here, just for simplicity's sake, we're going to choose a topic related to let's say, birthday
+
+cakes at 11 Madison Park Restaurant.
+
+So the idea that if the customer is asking any question related to cakes or birthday cakes or custom
+
+cakes, I need to create a topic that here is going to direct the conversation for us.
+
+And the idea that at 11 Madison Park, I'm going to assume that clients or customers, they can bring
+
+their own cake.
+
+So that's not a problem.
+
+But 11 Madison Park will not be able to create or develop customized cake for customers.
+
+So this is the idea from a very high level.
+
+So let me show you how we're going to build and test that topic together.
+
+So please note that here I'm at 11 Madison Park.
+
+Uh, chatbot.
+
+And if you go to topics you will be directed here to this page.
+
+If you remember, all these topics here are automatically created for you.
+
+For example, here in the previous video I was able to edit the conversation start if you remember.
+
+And now I should show here that you know me basically is editing it or edited it.
+
+24 minutes ago.
+
+And let's assume that we want to create a new topic.
+
+It's really easy.
+
+You can just say add the topic.
+
+You have the option to use Microsoft Copilot to create a topic for you.
+
+Or you can just say from blank.
+
+And here we go.
+
+So you should give the topic here a name.
+
+So for example, I'm going to call it let's say birthday cakes.
+
+So that is going to be the topic.
+
+And here I need to specify what is the trigger.
+
+And I'm going to assume that the agent chooses.
+
+So for example here the agent if it sees anything related to cakes birthday cakes, it's going to be
+
+directed here.
+
+And that is going to be the trigger to this specific topic.
+
+Here you will need to describe what that topic does.
+
+So I have already written a description.
+
+So let me copy the description and paste it here and walk you through it.
+
+So basically the description is pretty straightforward.
+
+Here I try to make it as detailed as possible.
+
+Really.
+
+You don't need to go think of this as more of an overkill.
+
+But here I'm going to say this tool detects whether a user is asking about special or customized cakes
+
+at 11 Madison Park for birthdays, anniversaries or proposals.
+
+So here I'm going to say some celebration related intent.
+
+To think of it, I'm giving example to the AI agent that if the user asked about it's my birthday,
+
+or maybe we are celebrating an anniversary or something along those lines, and then they asked for
+
+maybe customized cake or personalized dessert.
+
+So, for example, can 11 Madison Park make a birthday cake?
+
+Do you offer custom desserts?
+
+So anything related to customization I'm just going to say no.
+
+So we are not in the cake business right?
+
+So we're not going to be customizing any cake.
+
+But for example, if the user would like to bring their own here a cake.
+
+So here I'm giving them examples.
+
+Can I bring my own cake and so on.
+
+So here of course I'm going to specify what actually to do coming up next and what options does the
+
+user have.
+
+But this is the idea.
+
+So if any key word around cake.
+
+Birthdays, anniversary, celebration, customization, special occasion this topic is going to be triggered.
+
+Okay, so now we know what triggers this topic.
+
+What's what's actually I'm going to do when this is triggered.
+
+Well now you can click on plus.
+
+And that means now you are adding a node.
+
+And if you click plus you have multiple options.
+
+You can for example send a message.
+
+So that means a message will be displayed here in the chat.
+
+Maybe you can ask a question for example here you can add a condition.
+
+You can even add an agent.
+
+So an AI agent is going to be triggered when basically this topic here is triggered.
+
+So what I'm going to do as well I'm going to ask a question.
+
+So I'm going to ask a question here.
+
+So when this topic is triggered I'm going to ask a question.
+
+And there is going to be our question I'm going to ask the user this question.
+
+Thanks for checking.
+
+What would you like to know about cakes for special occasions?
+
+And instead of allowing the user to basically type whatever they want.
+
+And please note that this is just a very simple use case here.
+
+Just for simplicity, I'm going to give the customer only two options to choose from.
+
+And here these are the options.
+
+Think of it.
+
+I'm just guiding the conversation to only these two topics.
+
+And I don't want the user to go and just kind of suggest basically so they can of course go ahead and
+
+write something.
+
+But here I'm just going to give them maybe the two most likely options just for simplicity's sake.
+
+So the answers are going to be or the options are going to be the follows.
+
+The first option I'm going to say new option.
+
+And that is going to be our option here.
+
+So the option for the user is going to be can 11 Madison Edison Park make custom custom cakes.
+
+Okay.
+
+And that is going to be our first option.
+
+Think of it as that's the the first question that the user can ask.
+
+They just can click from and just select one of these one of these questions.
+
+And then I'm going to say another option.
+
+And that will be can I bring my own cake.
+
+And these are going to be the two questions that I'm going to guide the conversations or two options.
+
+Okay.
+
+So basically the idea is if the user here is going to select one of these options.
+
+And then afterwards what I'm going to do is I'm going to here, come here and I'm going to say if the
+
+user for example selected if the choice is equal to.
+
+So this is a choice that the user selected is equal to.
+
+Can 11 Madison Park make um customized cake.
+
+I'm going to display a message.
+
+And the message is going to say, well, no, we can't basically offer customized cake.
+
+Again, we're not in the cake business, so let's do that.
+
+I'm going to say plus here and I'm going to say send a message.
+
+And that if I go to that branch okay, the answer is going to be pretty straightforward.
+
+I'm going to say the following.
+
+I'm going to say 11.
+
+Madison Park does not prepare custom cakes or personal desserts.
+
+You are welcome to note any celebration during your reservation, and the team will acknowledge them
+
+in an elegant way.
+
+And that's pretty much it.
+
+Well, what if the user asked, for example, can I bring my own cake?
+
+Well, I'm going to allow them to bring their own cake.
+
+And here there's going to be the answer I'm going to say.
+
+Plus here I'm going to say send a message.
+
+And here I'm going to say, well, 11 Madison Park allows guests to bring their own cake if anything
+
+else, if all other conditions, I'm going to be directed here to continue the conversation.
+
+Okay.
+
+And that's pretty much it.
+
+So I'm just going to click save.
+
+And that is going to basically save our here um topic for us.
+
+And then finally you can just come here and you can say I would like to end for example, the current
+
+topic.
+
+So now you can say topic management.
+
+And for example you can say end current topic as an example.
+
+And that will be here added to the flowchart.
+
+Let's go ahead and test it out.
+
+So what I'm going to do is I'm going to click save.
+
+And let's test our newly added topic together.
+
+All right.
+
+So let's go ahead and test our topic.
+
+So what I'm going to do here is I'm going to ask the chatbot just a general question about birthday
+
+cakes.
+
+I'm going to say what does 11 Madison Park offer when it comes to birthday cakes okay.
+
+And if you go ahead and click run, what you see right now is the agent hopefully is going to be directed
+
+to that topic, which is birthday cakes.
+
+And this is exactly what happened right now.
+
+So this is what the tool has detected.
+
+And now it went through our flowchart, if you remember, and I guided the conversation to only include
+
+two types of questions.
+
+Right.
+
+One of them was can 11 Madison Park make custom cakes or can I bring my own cake?
+
+If you remember, the answer to any customization is no.
+
+And the answer to bring my own cake is yes.
+
+So I'm going to test both.
+
+So let's select this option.
+
+And now we should see it's going to tell you 11 Madison Park does not prepare custom cakes or personalized
+
+desserts.
+
+And this is great.
+
+It actually it worked.
+
+And you will notice that it actually ended the topic right.
+
+Of course you can allow it to continue and continue the conversation and so on.
+
+But this is just a very simple example to show you how you can create your own customized topic and
+
+also create that if else statement with multiple branches or conditions.
+
+So now let's test it again.
+
+So I'm going to say new test again.
+
+And let's test the other branch I'm going to say what does 11 Madison Park offers when it comes to birthday
+
+cakes.
+
+And now if I say can I bring my own cake.
+
+Hopefully it's going to say yes.
+
+Can I say, well, 11 Madison Park guests allow you to bring your own cake?
+
+This is great.
+
+And of course you can go if you go to topics and if you go to birthday cakes now, you should see where
+
+the where it went through.
+
+So it went here.
+
+It went here starts to ask the question and then it selected this option.
+
+And this is the highlighted here in dark blue.
+
+And we ended the conversation and we stopped here basically.
+
+And with that that's all I have for this module.
+
+I hope you enjoyed it.
+
+Please note that we're going to have a practice opportunity coming up next.
+
+And I'm also going to explain briefly what Rag or retrieval augmented generation means.
+
+So please stay tuned.
+
+Best of luck and I'll see you in the next video.

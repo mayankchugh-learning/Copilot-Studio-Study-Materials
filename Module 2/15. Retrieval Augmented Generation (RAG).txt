@@ -1,0 +1,303 @@
+Hello everyone, and welcome to this video.
+
+In this video I'm going to explain what do we mean by Rag or retrieval augmented generation.
+
+Please note that this video I'm going to get a bit technical, so please feel free to skip it if you
+
+want that simply kind of.
+
+The previous videos kind of concluded what I wanted to share.
+
+From a practical standpoint, that's really all you need to do to build a genetic AI solution inside
+
+of Copilot studio by just uploading or adding knowledge to the agent.
+
+But if you wanted to know what is actually happening behind the scenes, let me explain.
+
+What do we mean by rag?
+
+So rag is a technique that combines retrieval based systems with generative artificial intelligence
+
+models.
+
+It is commonly used to enhance the capabilities of large language models or llms by integrating external
+
+knowledge sources.
+
+Let me show you what happened behind the scenes.
+
+So here we have the user.
+
+That's me, that's you, and so on.
+
+What you could do is you can directly send a prompt directly to the AI model, which is the large language
+
+model or an LLM like ChatGPT, for example.
+
+And you will just kind of get a response when you do that, you are basically relying on the knowledge
+
+base of the AI model that you are talking to.
+
+So these AI models like ChatGPT, for example, it has seen the entire internet, so it has seen every
+
+single, um, book that humans have created.
+
+It has seen every single Wikipedia page code as well, uh, scripts available on GitHub and so on.
+
+So it has kind of a general understanding of humans or emotions and so on.
+
+But basically these models first, they don't have access to specific information about, let's say,
+
+my company, for example, or maybe any other company if these documents are internal documents.
+
+ChatGPT doesn't know that these documents existed, right, because they weren't open source to start
+
+with.
+
+So now what you could do is you can use the knowledge of the LLM, okay?
+
+And you can equip it with your own data, with your own knowledge base.
+
+And that's what we are going to do right now.
+
+So here you have the user.
+
+What you could do is you can send the prompt and instead of sending the prompt directly to ChatGPT,
+
+for example, or to the LLM or large language model, what you could do is now you can talk to a retriever.
+
+This retriever is going to search for information that is available in a database.
+
+This database could be, let's say, the frequently asked questions about a restaurant or maybe internal
+
+documents that I have, or maybe PDFs or emails or whatever knowledge that you would like to ground
+
+the agent with or the AI model with.
+
+And then what you do is that you fetch the information so that retriever is going to go it's going to
+
+search for that information related to the prompt inside the database.
+
+It's going to get some context, some information.
+
+And then it's going to perform augmentation.
+
+And that's where the term rag comes into play.
+
+Or in the rag stands for retriever.
+
+You're just getting information from a knowledge base or a database.
+
+And then you are going to augment the prompt, which is the user here has entered with the context with
+
+whatever information that you fetched from that database.
+
+You're going to augment them together.
+
+You're going to combine them together.
+
+And now you are going to feed in the prompt along with the context directly to the LLM.
+
+And because LLM is well powered by generative AI, that's where the term Ji comes into play.
+
+It is generative.
+
+It's creating new knowledge basically, or new content that never existed before.
+
+Now you get an output that is grounded in that database or in your documents basically.
+
+And again, the term might sound a bit fancy like rag retrieval, augmented generation.
+
+Basically, it's pretty simple.
+
+You feed in a prompt, but before you send the prompt directly, you're going to augment it with additional
+
+information coming from your database.
+
+And both of them will be sent to the AI.
+
+That's really all what rag is.
+
+And let's keep going.
+
+So here is the process for rag.
+
+First, the user writes a prompt or a query that is passed on to an orchestrator.
+
+And please note that all of that is happening behind the scenes inside of Copilot studio.
+
+Without even writing a single line of code.
+
+And if you're interested to actually write code and learn how to do Rag in Python and so on, I've got
+
+a ton of courses available on on Udemy.
+
+So if you'd like to go ahead and check them out, um, you can actually go and take these documents
+
+and chunk them together.
+
+So that's actually what we do behind the scenes.
+
+We take let's say a PDF, we chunk it, we vectorize it, and then we embed it in a database.
+
+And then you can go and query and fetch information from the database.
+
+All of that is happening behind the scenes for you inside of Copilot studio.
+
+The orchestrator is going to send a search query to the retriever, and then the retriever is going
+
+to fetch the relevant information from the knowledge source and send it back.
+
+This is simply this process here.
+
+And then the orchestrator is going to augment the prompt, as I mentioned, with whatever data we obtained
+
+from the database, that context we call it.
+
+And then we're going to send it here to the LM.
+
+And then the LM is going to respond with the generated text, which is going to be displayed to the
+
+user via the orchestrator.
+
+That's pretty much it in a nutshell.
+
+So you're probably wondering, okay, why use rag.
+
+Like what is the benefit of this?
+
+Well, it's pretty obvious I would say.
+
+The first one is, well, accurate responses.
+
+So we combine retrieval with generative artificial intelligence models to ground outputs.
+
+In factual data.
+
+We try to minimize the error as much as possible.
+
+So please note that when you prompt these large language models, they usually have a knowledge cut
+
+off date.
+
+So for example GPT 3.5 like the older ChatGPT, it has seen data up until 2021 2022, 22.
+
+Right.
+
+And that's when ChatGPT was released.
+
+If you go and ask these models about, let's say, events that happened in 2025 or 2026, it we're not
+
+going to know, right?
+
+Because there is a specific cutoff date in its training data.
+
+So now you can augment that knowledge base with additional knowledge sources using Rag.
+
+And that's where you can, uh, get factual information.
+
+The second piece is well you get up to date information.
+
+You can dynamically access the latest content ensuring relevance without retraining.
+
+So it is also cost efficient.
+
+So it reduces the computational burden by relying on retrieval for context.
+
+So that means cutting costs.
+
+And if you're not kind of clear on what do you mean by cost efficient.
+
+Well basically the idea that if you have an LLM or a large language model and let's assume that you
+
+got internal documents, what you could do is, well, you can take that brain and you can train it.
+
+You can tweak it.
+
+You can do what we call it fine tuning and this fine tuning.
+
+That means think of it as you're taking that brain, or you are changing the neural connections between
+
+these neurons using the new data.
+
+And this process is extremely cost.
+
+Um, it's extremely expensive because now you need GPUs to train these AI models and actually think
+
+of it as you have millions and even billions of parameters, and you're trying to retrain it with your
+
+own data.
+
+Here with Rag, we are not touching the brain.
+
+So the AI or the large language model itself is still intact.
+
+You are just augmenting it with additional knowledge source.
+
+But we are not doing any fine tuning.
+
+Okay.
+
+And I'm going to have a slide coming up next that compares Rag with fine tuning.
+
+It's also customizable, so it's easily tailored to specific industries and domains with custom data
+
+sets.
+
+Datasets and finally, explainable increases trust by surfacing the data sources behind generated responses.
+
+Okay, so finally, how do we compare fine tuning versus Rag and the idea from a very high level with
+
+fine tuning what it is?
+
+Well, you're going to train the base model.
+
+So actually you are going to get that GPT model that OpenAI trained, and we are going to tweak it and
+
+fine tune it with our data.
+
+This is of course computationally expensive.
+
+With Rag, you are just combining the GPT existing model with a retrieval mechanism to get external
+
+information.
+
+How how it works well provides a labeled data sets that is tailored to the task, and you are retraining
+
+the model.
+
+You are fine tuning it here.
+
+All you're doing is you are augmenting the LLM with an additional database use case.
+
+This could be used for useful for well-structured, high quality data sets, and this one is ideal for
+
+applications requiring up to date information or specific knowledge when it comes to advantages.
+
+Well, this basically deeply integrates the new information inside the brain itself.
+
+Like you are actually fine tuning or changing the connections between neurons.
+
+When you're doing fine tuning.
+
+This one does not require retraining to the model, we're just adding external knowledge via Rag.
+
+It's also easier to maintain, and it's also cost effective compared to fine tuning.
+
+The drawbacks, of course, of fine tuning.
+
+Well, it's expensive and time consuming, and this one here relies on the quality data of the retrieval
+
+system, and retrieval sometimes might fail if documents are poorly indexed or irrelevant, data is
+
+fetched with that.
+
+That's pretty much all I have for this video.
+
+I hope you enjoyed it.
+
+Let's conclude our module in the next video.
+
+Please stay tuned.
+
+Best of luck and I'll see you in the next one.

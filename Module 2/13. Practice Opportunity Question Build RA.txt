@@ -1,0 +1,109 @@
+Hello everyone and welcome to this practice opportunity.
+
+In this practice opportunity, I want you to build your own AI agent.
+
+And that is going to be a rag based agent, as I showed you before.
+
+But now we're going to go through a completely different use case.
+
+So instead of building a rag based agent to, let's say, a restaurant, now we're going to assume that
+
+you work at a company, this company named Simplicity and Simplicity.
+
+Employees frequently ask questions about expenses and vendor processes, and your task is to build an
+
+artificial intelligence assistant inside of Copilot studio.
+
+Of course, that answers questions using only these two documents.
+
+So what I've done here as part of the practice opportunity, if you go to module two and under practice
+
+opportunity now, you should see that I've got two Microsoft Word documents.
+
+One of them is related to travel and expense policy.
+
+And here I got this document here.
+
+So basically it's a document that outlines a company's policy when it comes to travel.
+
+For example, when it comes to, let's say air travel economy class standard, for any flights that
+
+is under five hours, premium economy is allowed for flights over five hours.
+
+Business class requires executive level approval.
+
+Okay, standard hotel budget is, let's say $200 to let's say $300 per night.
+
+And here I'm giving instructions when it comes to, let's say, standard per diem meal.
+
+The idea here is what employees used to do before they actually used to go.
+
+And I worked at many, um, corporations before, and I used to go to SharePoint and I used to download
+
+the policy and I used to read, you know, through massive, large documents.
+
+This is very archaic, right
+
+This is just something in the past.
+
+What we do right now is we can leverage the power of AI to build an AI agent that ground that is grounded
+
+in all these documents.
+
+So I can upload all these documents, maybe to SharePoint.
+
+And I can basically train an AI agent to get you these answers immediately.
+
+Okay.
+
+And that's what we wanted to do right now without writing a single line of code.
+
+Okay.
+
+So this is the first document.
+
+The second document is related to procurement and vendor management.
+
+So for example, at simplicity we maybe higher video editors.
+
+For example, maybe we hire, uh, let's say photographers and videographers to film these courses.
+
+So here I'm just outlining kind of what is the processes when it comes to uh, to doing that.
+
+And if you go up now you should see kind of all the procurement principles when it comes to transparency,
+
+when it comes to here, kind of how to deal and handle with video editors, graphic designers and so
+
+on.
+
+So really, all you need to do is to build a custom AI agent inside of Copilot studio and equip it with
+
+these two knowledge sources.
+
+So here is your tasks.
+
+First, I want you to upload the document to the knowledge base.
+
+I want you to build the agent.
+
+I want you to call it Simplicity Finance Assistant.
+
+The tone is going to be professional, concise and friendly.
+
+These are the rules.
+
+And then I want you to test the agent and maybe ask it can I approve
+
+Let's say a $4,000 purchase.
+
+Who can approve it
+
+What is the per diem per meals
+
+If you remember, it was like a $75 we want.
+
+I want you to do a quick sanity check after you build the agent, and that's pretty much it.
+
+Go ahead, give it a try.
+
+And I'm going to show you the detailed solution in the next video.
