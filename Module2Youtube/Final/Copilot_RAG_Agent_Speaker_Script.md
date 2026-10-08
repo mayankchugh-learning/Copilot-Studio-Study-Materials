@@ -47,7 +47,7 @@ Conceptually, the platform prepares your content so it can be searched. I won't 
 
 ## 7:00 Build the agent (4:00)
 
-**[SCREEN: Copilot Studio, create agent, Configure]**
+**[SLIDE 5 shown. At "Let's build", go to SLIDE 6 (Demo 1) and SWITCH TO COPILOT STUDIO. Return to the slides after the agent is created.]**
 
 Let's build. In Copilot Studio I create a new agent and open the configuration view. *(Validate labels before recording.)*
 
@@ -65,7 +65,7 @@ One more setting: I'm keeping general web search **off**. If I leave it on, my a
 
 ## 11:00 Add knowledge (3:30)
 
-**[SCREEN: Knowledge, Add knowledge]**
+**[SLIDE 7 shown. Go to SLIDE 8 (Demo 2) and SWITCH TO COPILOT STUDIO. Return to the slides when both sources are Ready.]**
 
 An agent needs to exist before you can attach files, so we create it first.
 
@@ -83,7 +83,7 @@ Let both sources reach **Ready** before testing.
 
 ## 14:30 Test it (4:00)
 
-**[SCREEN: Test pane]**
+**[SLIDE 9 shown. Go to SLIDE 10 (Demo 3) and SWITCH TO COPILOT STUDIO, Test pane. Return to the slides for failure modes (SLIDE 11).]**
 
 Test one, the document. I ask: *How is each session structured?* The agent gives the warm-up, concepts, live coding, lab and wrap-up, and it cites my FAQ. That's grounding.
 

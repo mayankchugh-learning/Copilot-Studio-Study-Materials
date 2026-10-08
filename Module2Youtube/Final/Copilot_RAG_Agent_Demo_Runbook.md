@@ -25,7 +25,7 @@ AI Pioneers is a live, virtual programme in GenAI and RAG engineering. Cohort 1 
 It is designed for IT professionals who want to build practical GenAI and RAG skills.
 
 **How is it delivered?**
-Sessions are live and online. Each week has one live session of 90 minutes.
+Sessions are live and online. Each session lasts 90 minutes.
 
 **How is a session structured?**
 Each 90-minute session follows the same rhythm: a 10-minute warm-up, 20 minutes of concepts, 40 minutes of live coding, a 15-minute lab and a 5-minute wrap-up.
@@ -34,7 +34,7 @@ Each 90-minute session follows the same rhythm: a 10-minute warm-up, 20 minutes 
 Participants work with slide decks, Jupyter notebooks and Streamlit demo apps.
 
 **Is there homework?**
-Yes. The programme includes 8 homework assignments, one for each week.
+Yes. The programme includes 8 homework assignments.
 
 **Who teaches the programme?**
 Mayank Chugh, a cloud and enterprise architect and GenAI instructor.
@@ -93,3 +93,18 @@ Capture a screenshot of each result **during rehearsal** as a fallback.
 
 - Website not Ready: say so, continue with the document, and show the rehearsal screenshot for question 2.
 - Odd answer: use it. Explain it as a retrieval limitation (this feeds segment 7 of the script).
+
+## 7. Slide and Copilot switch map (11-slide deck)
+
+| Slide | Content | Action |
+|-------|---------|--------|
+| 1-4 | Title, outcomes, problem, RAG | Stay in PowerPoint |
+| 5 | Build the agent (overview) | Stay in PowerPoint |
+| 6 | **Demo 1: Build the agent** | **Switch to Copilot Studio**: sections 1 and 3 above, then return |
+| 7 | Add knowledge (overview) | Stay in PowerPoint |
+| 8 | **Demo 2: Add knowledge** | **Switch to Copilot Studio**: upload the FAQ, add the website, wait for Ready, then return |
+| 9 | Test it (overview) | Stay in PowerPoint |
+| 10 | **Demo 3: Run the tests** | **Switch to Copilot Studio**: run the four tests in section 4, then return |
+| 11 | What can go wrong and takeaways | Stay in PowerPoint |
+
+Tip: pre-open Copilot Studio in its own window so you can switch with Alt+Tab (Windows) or Cmd+Tab (Mac).
